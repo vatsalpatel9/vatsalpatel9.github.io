@@ -136,7 +136,7 @@ footer{
     padding: 5px;
 }
 
-@media (min-width: 1000px){
+/*@media (min-width: 1000px){*/
     .skills{
         display: flex;
         max-width: 1000px;
@@ -146,4 +146,3 @@ footer{
     .skill + .skill{
         margin-left: 2em;
     }
-}
