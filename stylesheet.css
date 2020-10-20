@@ -81,3 +81,28 @@ footer{
     clear: both;
     padding: 10px;
 }
+
+.my-skills{
+    overflow: auto;
+    position: relative;
+}
+
+.my-skills::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    
+    display: block;
+    background-image: url("img/codeBG.png");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
