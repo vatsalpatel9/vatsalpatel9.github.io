@@ -1,1 +1,1 @@
-# https://www.vatsalpatel9.github.io
+# https://vatsalpatel9.github.io
