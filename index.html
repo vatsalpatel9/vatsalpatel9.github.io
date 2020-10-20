@@ -1,50 +1,113 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
         <title>Vatsal Patel</title>
+
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
+        crossorigin="anonymous" />
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
+        crossorigin="anonymous" />
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
     </head>
     
     <body>
         <header>
-            <div class="container">
-                <h1 class="logo" href="index.html">VP</h1>
-                <nav>
-                    <ul>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Project</a></li>
-                        <li><a href="#">Skills</a></li>
-                        <li><a href="VatsalResume.pdf">Resume</a></li>
-                    </ul>
-                </nav>
+            <div class="logo">
+                <h1>VP</h1>
             </div>
+            <button class="nav-toggle" aria-label="toggle nav">
+                <span class="ham-style-nav"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">AboutMe</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">ContactMe</a></li>
+                </ul>
+            </nav>
         </header>
 
-        <main>
-            <div class="about">
-                <H1>Vatsal Patel</H1>
+        <!---Intro-->
+        <section class="intro" id="home">
+            <h1 class="section-title section-title-intro">Hello World! I'm <strong>Vatsal Patel</strong></h1>
+            <p class="section-subtitle section-subtitle-intro">Application Developer</p>
+        </section>
+
+        <!--AboutMe-->
+        <section class="aboutMe" id="about">
+            <h2 class="section-title section-title-about">About Me</h2>
+            <p class="section-subtitle section-subtitle-about"></p>
+
+            <div class="aboutMe-body">
+                <p></p>
+                <p></p>
             </div>
 
-            <div class="project">
+            <!--add img here-->
+        </section>
 
+        <!--Skills-->
+        <section class="my-skills" id="skills">
+            <h2 class="section-title section-title-skills">My Skills</h2>
+            <div class="skills">
+                <div class="skills">
+                    <h3></h3>
+                    <p></p>
+                </div><!--Skills Close-->
+
+                <div class="skills">
+                    <h3></h3>
+                    <p></p>
+                </div><!--Skills Close-->
+
+                <div class="skills">
+                    <h3></h3>
+                    <p></p>
+                </div><!--Skills Close-->
+            </div><!--Skills Close-->
+        </section>
+
+        <!--Projects-->
+        <section class="myProject" id="projects">
+            <h2 class="section-title">My Projects</h2>
+            <p class="section-subtitle"></p>
+
+            <div class="creations">
+                <!--creation 1-->
+                <a href="#" class="creation-item">
+
+                </a>
             </div>
+        </section>
 
-            <div class="skill">
+        <!--Contact-->
+        <section class="contactMe" id="Contact">
+            <h2 class="contact-title">Contact Me</h2>
+            <ul class="contact-list">
+                <li class="contact-list-item">Location</li>
+                <li class="contact-list-item"><a href="mailto:vasupatel1999@gmail.com" class="email-link">vasupatel1999@gmail.com</a></li>
+            </ul>
+        </section>
 
-            </div>
-
-            <div class="resume">
-                <a href="VatsalResume.pdf">Resume</a>
-            </div>
-
-            <div class="contact">
-
-            </div>
-
-        </main>
-        <!-- Footer -->
-        <footer id="footer">
-            <p>Copyright &copy; 2020 Vatsal Patel</p>
+        <!--Footer-->
+        <footer>
+            <ul class="social-list">
+                <li class="social-list-item"><a class="social-list-link"
+                href="https://github.com/vatsalpatel9">a</a></li>
+                <li class="social-list-item"><a class="social-list-link"
+                href="https://twitter.com">b</a></li>
+                <li class="social-list-item"><a class="social-list-link"
+                href="VatsalResume.pdf">c</a></li>
+            </ul>
+            <p class="copyright">Copyright &copy; 2020 Vatsal Patel</p>
         </footer>
     </body>
 </html>
